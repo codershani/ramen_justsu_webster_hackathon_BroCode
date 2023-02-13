@@ -1,0 +1,40 @@
+@use '../custom' as *;
+
+.anime {
+    // height: 100vh;
+    // width: 100vw;
+    background: url('/assets/img/wavy.png');
+    // background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply,normal;
+    overflow-x: hidden;
+    position: relative;
+
+    img {
+        margin-top: 3rem;
+        height: 500px;
+    }
+
+    &-description {
+        position: absolute;
+        width: 450px;
+        right: 30px;
+        top: 275px;
+        padding: 1.5rem 1.5rem;
+        background-color: $white;
+        color: $primary;
+        font-family: 'Comic Neue', cursive;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 700;
+        border-radius: 8px;
+    }
+
+    &-btn {
+        position: absolute;
+        right: 30px;
+        top: 460px;
+    }
+}

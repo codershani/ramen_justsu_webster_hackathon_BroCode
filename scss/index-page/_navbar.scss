@@ -1,0 +1,24 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.nav {
+    @include bg-navbar;
+    font-family: 'K2D', sans-serif;
+
+    a {
+
+        img {
+            height: 4rem;
+        }
+    }
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $white !important;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}

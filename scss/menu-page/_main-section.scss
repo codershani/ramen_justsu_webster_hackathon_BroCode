@@ -1,0 +1,21 @@
+@use '../custom' as *;
+
+.main-section {
+    position: relative;
+    background-color: $menu-bg;
+    margin-top: 4rem;
+
+    &::after {
+        // position: absolute;
+        background: url('/assets/img/menu/main-bg.png');
+        // clip-path: circle(40%);
+    }
+
+    img {
+        width: 470px;
+    }
+
+    button {
+        margin-top: 0.75rem;
+    }
+}

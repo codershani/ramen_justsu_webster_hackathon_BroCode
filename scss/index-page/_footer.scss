@@ -1,0 +1,43 @@
+@use '../custom' as *;
+
+.footer {
+    padding: 3rem;
+    background-color: $footer;
+
+    img {
+        width: 250px;
+    }
+
+    .location {
+        color: $white;
+
+        &-map {
+
+            img {
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .site-link {
+        
+        
+        li {
+            margin: 0;
+            padding: 0;
+            
+            a {
+                color: $white;
+                font-family: 'K2D', sans-serif;
+                line-height: 2rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .copyright {
+        color: $white;
+        text-align: right;
+    }
+
+}

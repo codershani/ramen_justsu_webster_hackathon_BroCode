@@ -1,0 +1,27 @@
+@use '../custom' as *;
+
+.faq {
+    height: auto;
+    padding: 4rem 0;
+    background: linear-gradient(0deg, rgba(13, 12, 51, 0.4), rgba(13, 12, 51, 0.4)), url('/assets/img/faq-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .accordion {
+        border-radius: 10px;
+        
+        
+        &-item {
+            margin-bottom: 2rem;
+            border-radius: 10px;
+        }
+
+        &-header {
+            padding: 0.25rem;
+        }
+
+    }
+
+}

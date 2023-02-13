@@ -1,0 +1,22 @@
+@use 'custom';
+
+//IMPORT COMPONENTS
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//IMPORT INDEX PAGE SECTIONS
+@use 'index-page/navbar';
+@use 'index-page/intro-section';
+@use 'index-page/about-section';
+@use 'index-page/anime-section';
+@use 'index-page/testimonials';
+@use 'index-page/faq-section';
+@use 'index-page/get-started';
+@use 'index-page/footer';
+
+// IMPORT MENU PAGE SECTIONS
+@use 'menu-page/menu';
+@use 'menu-page/main-section';

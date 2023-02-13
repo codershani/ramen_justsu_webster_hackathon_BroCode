@@ -1,0 +1,31 @@
+@use '../custom' as *;
+
+.intro {
+    padding: auto;
+    padding-bottom: 3rem;
+    background: url('/assets/img/hero-section-bg.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .intros {
+        
+        margin: auto;
+        width: 65vw;
+        height: 80vh;
+        background: linear-gradient(0deg, rgba(9, 40, 66, 0.2), rgba(9, 40, 66, 0.2)), url('/assets/img/main.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-blend-mode: multiply, normal;
+        border: 4rem solid $primary;
+        border-radius: 0px 0px 1000px 1004px;
+
+        @include media-breakpoint-down(lg) {
+            height: 40vh;
+            width: 90vw;
+            border: 4rem solid $primary;
+        }
+    }
+
+}
