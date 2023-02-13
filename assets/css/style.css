@@ -11608,6 +11608,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 .btn-rounded {
   position: relative;
   padding: 0.5rem 1rem;
@@ -11725,7 +11726,8 @@ textarea.form-control-lg {
 .intro {
   padding: auto;
   padding-bottom: 3rem;
-  background: url("/assets/img/hero-section-bg.svg");
+  background: url("../img/hero-section-bg.svg");
+  /* background: url("../assets/img/hero-section-bg.svg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11734,7 +11736,7 @@ textarea.form-control-lg {
   margin: auto;
   width: 65vw;
   height: 80vh;
-  background: linear-gradient(0deg, rgba(9, 40, 66, 0.2), rgba(9, 40, 66, 0.2)), url("/assets/img/main.png");
+  background: linear-gradient(0deg, rgba(9, 40, 66, 0.2), rgba(9, 40, 66, 0.2)), url("../img/main.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -11781,7 +11783,7 @@ textarea.form-control-lg {
 }
 
 .anime {
-  background: url("/assets/img/wavy.png");
+  background: url("../img/wavy.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11869,7 +11871,7 @@ textarea.form-control-lg {
 .faq {
   height: auto;
   padding: 4rem 0;
-  background: linear-gradient(0deg, rgba(13, 12, 51, 0.4), rgba(13, 12, 51, 0.4)), url("/assets/img/faq-bg.jpg");
+  background: linear-gradient(0deg, rgba(13, 12, 51, 0.4), rgba(13, 12, 51, 0.4)), url("../img/faq-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11919,7 +11921,7 @@ textarea.form-control-lg {
   margin-top: 4rem;
 }
 .main-section::after {
-  background: url("/assets/img/menu/main-bg.png");
+  background: url("../img/menu/main-bg.png");
 }
 .main-section img {
   width: 470px;
